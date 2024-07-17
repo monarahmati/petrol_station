@@ -1,0 +1,90 @@
+body{
+    background: url(/image/article_636784142601584628_thumb_960_542_11zon.jpg) no-repeat;
+    background-size: cover;
+    
+}
+
+.contact{
+    background-color: rgba(0, 0, 0, 0.719);
+}
+
+.contact_info{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:2rem;
+    padding: 3rem;
+}
+
+.contact_line{
+    width: 25rem;
+}
+
+.contact__1{
+    display: flex;
+    text-align: center;
+    
+}
+
+.contact__1 h5{
+    line-height: 4rem;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.2rem;
+}
+
+.contact__1 div{
+    margin-left: 1.2rem;
+}
+
+.icon__contact{
+    font-size: 2rem;
+}
+
+/* ****************** FORM  ************************ */
+
+.contact__container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap:2rem;
+    padding: 3rem;
+}
+
+.contact__form{
+    background-color:var(--color-bg);
+    height: 30rem;
+    border-radius: 10px;
+}
+
+.container_form{
+    padding: 1.2rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+.container_form input{
+ margin: 0.5rem;
+ height: 3rem;
+ border-radius: 5px;
+}
+
+.btn-form:hover{
+    background-color: cornflowerblue;
+}
+
+
+@media screen and (max-width: 1024px){
+    .contact__container{
+        grid-template-columns: 1fr;
+    }
+
+    .contact_line{
+        width: 12rem;
+    }
+    
+    
+    .contact__1 h5{
+        line-height: 4rem;
+        font-size: 0.9rem;
+    }
+}

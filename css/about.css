@@ -1,0 +1,29 @@
+
+.header_img{
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+
+/* ********* ABOUT US ************** */
+
+.abouts__1{
+    margin-top: 3rem;
+}
+
+.text_title{
+    margin-bottom: 1rem;
+}
+
+/* *************************************** */
+
+@media screen and (max-width: 1024px){
+
+    nav{
+        direction:ltr;
+    }
+
+    footer{
+        margin-top: 5rem;
+    }
+}
